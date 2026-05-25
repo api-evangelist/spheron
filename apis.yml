@@ -1,0 +1,133 @@
+aid: spheron
+name: Spheron
+description: >-
+  Spheron Network is a decentralized GPU and cloud compute marketplace that
+  aggregates enterprise-grade NVIDIA GPU capacity from certified Tier 3/4 data
+  centers worldwide and exposes it through a single on-demand, per-minute
+  billed interface. The marketplace covers H100, H200, B200, B300, A100,
+  GH200, L40S, RTX PRO 6000, RTX 5090, RTX 4090, and pre-order GB200/GB300/
+  R100 inventory, priced 40-60% below hyperscaler rates with spot, reserved,
+  and custom-cluster (8-512+ GPU) options. Teams access the platform through
+  a web dashboard, a documented REST API at app.spheron.ai/api, a TypeScript
+  Protocol SDK, an MCP plugin for Claude, SkyPilot integration, and Helm
+  charts for self-hosted provider nodes. The Spheron Foundation also
+  maintains an open compute protocol with Fizz nodes, provider nodes, ICL
+  YAML configuration, and an on-chain payment system supporting both
+  traditional payment rails and USDC/USDT stablecoin settlement. The
+  company is transitioning from a pure decentralized protocol model toward
+  an enterprise GPU procurement and aggregation marketplace while keeping
+  the underlying provider network open and community-operated.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Compute
+  - GPU
+  - GPU Cloud
+  - Decentralized Compute
+  - AI Infrastructure
+  - NVIDIA
+  - H100
+  - B200
+  - Kubernetes
+  - Bare Metal
+  - Marketplace
+  - DePIN
+  - Web3
+  - Stablecoin Payments
+  - MCP
+url: https://raw.githubusercontent.com/api-evangelist/spheron/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis:
+  - aid: spheron:spheron-gpu-cloud-api
+    name: Spheron GPU Cloud API
+    description: >-
+      REST API for programmatically managing GPU deployments across the
+      Spheron marketplace. Covers provider and GPU-offer discovery,
+      deployment lifecycle (create, list, get, rename, terminate,
+      can-terminate), SSH key management, persistent volume create/attach/
+      detach, Kubernetes version listing and cluster health, and account
+      balance and team endpoints. Authentication is Bearer-token via API
+      keys generated from the Spheron dashboard. Base URL is
+      https://app.spheron.ai with all endpoints prefixed by /api.
+    humanURL: https://docs.spheron.ai/api-reference
+    baseURL: https://app.spheron.ai/api
+    tags:
+      - Compute
+      - GPU
+      - Deployments
+      - Providers
+      - Volumes
+      - Kubernetes
+      - SSH Keys
+      - Billing
+    properties:
+      - type: Documentation
+        url: https://docs.spheron.ai/api-reference
+      - type: Portal
+        url: https://docs.spheron.ai
+      - type: Authentication
+        url: https://docs.spheron.ai/api-reference
+      - type: SDK
+        url: https://github.com/spheron-core/protocol-sdk
+      - type: MCP
+        url: https://github.com/spheron-core/spheron-mcp-plugin
+common:
+  - type: Website
+    url: https://www.spheron.network
+  - type: Marketplace
+    url: https://www.spheron.network
+  - type: Pricing
+    url: https://www.spheron.network/pricing
+  - type: GPUs
+    url: https://www.spheron.network/gpus
+  - type: Console
+    url: https://app.spheron.ai
+  - type: SignUp
+    url: https://app.spheron.ai
+  - type: Documentation
+    url: https://docs.spheron.ai
+  - type: APIReference
+    url: https://docs.spheron.ai/api-reference
+  - type: Protocol
+    url: https://docs.spheron.network
+  - type: ProtocolDocumentation
+    url: https://docs.spheron.network/overview
+  - type: Blog
+    url: https://blog.spheron.network
+  - type: GitHub
+    url: https://github.com/spheron-core
+  - type: LegacyGitHub
+    url: https://github.com/spheronFdn
+  - type: SDK
+    url: https://github.com/spheron-core/protocol-sdk
+  - type: MCP
+    url: https://github.com/spheron-core/spheron-mcp-plugin
+  - type: SkyPilot
+    url: https://github.com/spheron-core/skypilot
+  - type: HelmCharts
+    url: https://github.com/spheron-core/spheron-stack
+  - type: ProviderInstallation
+    url: https://github.com/spheron-core/provider-installation
+  - type: Templates
+    url: https://github.com/spheron-core/awesome-spheron
+  - type: ICLGenie
+    url: https://github.com/spheron-core/icl-genie-api
+  - type: Foundation
+    url: https://github.com/spheron-core/.github
+  - type: Twitter
+    url: https://twitter.com/SpheronFDN
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/spheron
+  - type: YouTube
+    url: https://www.youtube.com/@SpheronFdn
+  - type: Discord
+    url: https://discord.com/invite/spheron
+  - type: Telegram
+    url: https://t.me/SpheronFdn
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
