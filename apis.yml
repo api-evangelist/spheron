@@ -71,7 +71,7 @@ apis:
         url: https://docs.spheron.ai
       - type: Authentication
         url: https://docs.spheron.ai/api-reference
-      - type: SDK
+      - type: SDKs
         url: https://github.com/spheron-core/protocol-sdk
       - type: MCP
         url: https://github.com/spheron-core/spheron-mcp-plugin
@@ -86,7 +86,7 @@ common:
     url: https://www.spheron.network/gpus
   - type: Console
     url: https://app.spheron.ai
-  - type: SignUp
+  - type: Signup
     url: https://app.spheron.ai
   - type: Documentation
     url: https://docs.spheron.ai
@@ -102,7 +102,7 @@ common:
     url: https://github.com/spheron-core
   - type: LegacyGitHub
     url: https://github.com/spheronFdn
-  - type: SDK
+  - type: SDKs
     url: https://github.com/spheron-core/protocol-sdk
   - type: MCP
     url: https://github.com/spheron-core/spheron-mcp-plugin
