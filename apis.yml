@@ -76,6 +76,8 @@ apis:
       - type: MCP
         url: https://github.com/spheron-core/spheron-mcp-plugin
 common:
+  - type: DomainSecurity
+    url: security/spheron-domain-security.yml
   - type: Website
     url: https://www.spheron.network
   - type: Marketplace
