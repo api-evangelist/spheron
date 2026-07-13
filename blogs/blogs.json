@@ -2,18 +2,14 @@
   "repo": "spheron",
   "feeds": [
     {
-      "source": "https://blog.spheron.network",
+      "source": "https://docs.spheron.network/overview",
+      "feed_url": "https://docs.spheron.network/overview",
+      "title": "",
       "saved": 0,
-      "error": "HTTP 410 Gone"
-    },
-    {
-      "source": "https://www.spheron.network/blog",
-      "feed_url": "",
-      "saved": 9,
-      "method": "agent-scrape"
+      "method": "none"
     }
   ],
-  "fetched": "2026-06-27T13:11:56Z",
-  "post_count": 18,
-  "agent_pulled": "2026-06-27"
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 27,
+  "agent_pulled": "2026-07-04"
 }
