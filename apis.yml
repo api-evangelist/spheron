@@ -84,7 +84,7 @@ apis:
         url: https://docs.spheron.ai/api-reference
       - type: SDKs
         url: https://github.com/spheron-core/protocol-sdk
-      - type: MCP
+      - type: Documentation
         url: https://github.com/spheron-core/spheron-mcp-plugin
 common:
   - type: DomainSecurity
@@ -117,7 +117,7 @@ common:
     url: https://github.com/spheronFdn
   - type: SDKs
     url: https://github.com/spheron-core/protocol-sdk
-  - type: MCP
+  - type: Documentation
     url: https://github.com/spheron-core/spheron-mcp-plugin
   - type: SkyPilot
     url: https://github.com/spheron-core/skypilot
