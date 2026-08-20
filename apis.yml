@@ -69,6 +69,15 @@ apis:
     tags:
       - Compute
       - GPU
+      - Deployment
+      - Providers
+      - Volumes
+      - Kubernetes
+      - SSH Keys
+      - Billing
+    tags_raw:
+      - Compute
+      - GPU
       - Deployments
       - Providers
       - Volumes
