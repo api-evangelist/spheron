@@ -18,6 +18,17 @@ description: >-
   an enterprise GPU procurement and aggregation marketplace while keeping
   the underlying provider network open and community-operated.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
